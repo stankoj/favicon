@@ -10,7 +10,7 @@ steps:
 - name: test
   image: golang:1.11
   commands:
-  - go test -v ./...
+  - curl test.stanko.sh
   volumes:
   - name: gopath
     path: /go
